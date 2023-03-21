@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    body *{
+        flex-direction:column;
+    }
+section > aside{
+    display: none;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #settings{
+        display: none;
+    }
+}
+/* Small devices (smartphone)*/
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: #FFA726;
+}
+}
+/* Medium devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: #5E91F2;
+    }
+  } 
+
+/* Large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #settings{
+        display: flex;
+    }
+  }

@@ -1,0 +1,28 @@
+body *{
+    display: flex;
+    font-size: 2.5rem;
+}
+header,section{
+    margin:0px 0px 8px;
+}
+#navbar{
+    flex-grow: 3.9;
+}
+#settings{
+    flex-grow: 1;
+}
+header section{
+    border: 1px solid black;
+}
+section > aside{
+    border: 1px solid black;
+    flex-grow: 1;
+}
+section > main{
+    border: 1px solid black;
+    flex-grow: 5;
+    height: 85vh;
+}
+footer{
+    border: 1px solid black;
+}
